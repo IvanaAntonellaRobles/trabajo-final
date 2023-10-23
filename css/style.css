@@ -1,0 +1,131 @@
+header {
+   background-color: rgb(231, 206, 167); 
+   width: 100%;
+   height: 5rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   z-index: 999px;
+}
+
+.contain-recommended {
+    margin: 30px;
+    margin-top: 6rem;
+    
+}
+
+.contain-recommended img {
+    height: 700px;
+    width: 1000px;
+    padding: 0px 0px 0px 400px;
+    
+}
+
+.contain-recommended h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    font-size: 3.5rem;
+    color: wheat;
+}
+
+.contain-recommended h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    color: wheat;
+}
+
+/* <!-- inicio contenedor 2 --> */
+
+.contain-recommended2 h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.contain-recommended2 #contain-icons {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contain-recommended2 #contain-icons i {
+    font-size: 4.4rem;
+}
+
+/* Fin contenedor 2  */
+
+/* Inicio contenedor 3 */
+
+.contain-recommended3 #nosotros{
+    text-align: center;
+    font-size: 50px;
+}
+
+.contain-recommended3 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contain-recommended3 .contain-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Fin contenedor 3  */
+
+/* Inicio formulario */
+
+#contain-form .form {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#contain-form input {
+    font-size: 22px;
+    background-color: azure;
+    border-radius: 8px;
+
+}
+
+#contain-form h2 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Fin contenedor formulario */
+
+/* Inicio Footer  */
+footer {
+    background-color: rgb(223, 204, 169);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .contain-icons a{
+    font-size: 3rem;
+    width: 14rem;
+    color: rgb(3, 3, 3);
+    justify-content: space-between;
+    margin-left: 6rem;
+}
+
+footer .options {
+    font-size: 1rem;
+}
